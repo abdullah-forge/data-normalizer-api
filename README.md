@@ -41,8 +41,7 @@ Uploading a dataset successfully returns job information and processing status.
 
 > Replace this section with your API response screenshot.
 
-![Upload Response](<img width="999" height="597" alt="s1" src="https://github.com/user-attachments/assets/c7ed53d5-6d80-4b39-9403-b65d30acebcc" />
-)
+![Upload Response](https://github.com/user-attachments/assets/c7ed53d5-6d80-4b39-9403-b65d30acebcc)
 
 ---
 
@@ -52,8 +51,7 @@ All unit and integration tests passing successfully.
 
 > Replace this section with your Pytest screenshot.
 
-![Tests](<img width="621" height="285" alt="test" src="https://github.com/user-attachments/assets/019b0f88-9003-4b9d-a361-bf4d1bbfe1d1" />
-)
+![Tests](https://github.com/user-attachments/assets/019b0f88-9003-4b9d-a361-bf4d1bbfe1d1)
 
 ---
 
@@ -364,12 +362,7 @@ http://localhost:8000/redoc
 
 This project is deployed using **Render**.
 
-Production URL
-
-
-```
-(https://data-normalizer-api-1ery.onrender.com/docs#/Result/get_result_result__job_id__get)
-```
+[Production URL](https://data-normalizer-api-1ery.onrender.com/docs#/Result/get_result_result__job_id__get)
 
 
 # 🔒 Security

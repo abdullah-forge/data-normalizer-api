@@ -15,8 +15,10 @@ class Job(Base):
     id: Mapped[int] = mapped_column(primary_key=True)
     original_filename: Mapped[str] = mapped_column(String(255),nullable = False)
     status: Mapped[JobStatus] = mapped_column(default= JobStatus.PENDING)
-    created_at: Mapped[datetime] = mapped_column(DateTime(), default=datetime.now(UTC))
-    completed_at: Mapped[datetime] = mapped_column(DateTime(), default=datetime.now(UTC))
+    #created_at: Mapped[datetime] = mapped_column(DateTime(), default=datetime.now(UTC))
+    #completed_at: Mapped[datetime] = mapped_column(DateTime(), default=datetime.now(UTC))
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=datetime.now(UTC))
+    completed_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), nullable=True)  
     error_message:Mapped[str] = mapped_column(String(255),nullable= True)
     output_file_path:Mapped[str] = mapped_column(String(255),nullable = True)
 

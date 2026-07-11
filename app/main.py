@@ -18,6 +18,13 @@ app = FastAPI(
     version=settings.app_version,
     debug=settings.debug
 )
+# Direct table creation for shared database deployment
+@app.on_event("startup")
+async def startup_db():
+    from app.db.base import Base
+    from app.db.session import engine
+    async with engine.begin() as conn:
+        await conn.run_sync(Base.metadata.create_all)
 
 app.add_middleware(
     CORSMiddleware,

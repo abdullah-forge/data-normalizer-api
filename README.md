@@ -367,13 +367,11 @@ This project is deployed using **Render**.
 
 Production URL
 
+
 ```
-Coming Soon...
+(https://data-normalizer-api-1ery.onrender.com/docs#/Result/get_result_result__job_id__get)
 ```
 
-Once deployed, replace the above with your Render URL.
-
----
 
 # 🔒 Security
 

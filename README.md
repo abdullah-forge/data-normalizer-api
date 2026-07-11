@@ -31,8 +31,7 @@ Interactive API documentation generated automatically by FastAPI.
 
 > Replace this section with your Swagger screenshot.
 
-![Swagger UI](<img width="991" height="597" alt="s5" src="https://github.com/user-attachments/assets/f8b0f45a-befe-4770-8686-c4aebc7dfe0d" />
-)
+![Swagger UI](https://github.com/user-attachments/assets/f8b0f45a-befe-4770-8686-c4aebc7dfe0d)
 
 ---
 

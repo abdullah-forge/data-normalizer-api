@@ -1,0 +1,5 @@
+  First Name  , LAST_NAME, Customer-Email, Phone.Number, Age , Joining Date ,  Salary  ,  Notes  
+  Ali  , Khan, ali@test.com, 03001234567, 25, 2023-10-01, 50000, Regular employee
+  Sara  , Ahmed, sara@test.com, 03009876543, 30, 10/25/2023, 60000,  
+John, Doe, john@test.com, abc, N/A, 2023-10-03, seven thousand, 
+1st User, Smith, jane@test.com, 0311-1111111, 28, 2023.10.04, , On leave
